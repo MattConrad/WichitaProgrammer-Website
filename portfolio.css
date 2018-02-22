@@ -1,0 +1,35 @@
+﻿#nav-bar {
+    padding-right: 0;
+}
+.portfolio-item {
+    float: left;
+    clear: left;
+    margin-bottom: 20px;
+}
+.screenshot {
+    width: 250px;
+    float: left;
+    margin-right: 15px;
+}
+.portfolio-description {
+    float: right;
+    width: 79%;
+    margin: 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .portfolio-description {
+        width: 76%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .screenshot {
+        width: 180px;
+        float: none;
+    }
+    .portfolio-description {
+        float: none;
+        width: 100%;
+    }
+}
