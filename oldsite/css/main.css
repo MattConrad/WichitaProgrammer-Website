@@ -1,0 +1,57 @@
+body {
+    background: url(/images/pw_maze_white2x.png) repeat 0 0;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.navbar {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.navbar .navbar-inner a.title {
+    display: block;
+    float: left;
+    padding: 20px 20px 10px;
+    margin-left: -20px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #777777;
+}
+
+.navbar .title:hover {
+  text-decoration: none;
+}
+
+span.blue8 {
+    color: #83AEF6;
+}
+
+span.bluea {
+    color: #A1BEE6;
+}
+
+#content {
+    padding: 1em;
+    background: url(/images/light_toast.png) repeat 0 0;
+}
+
+#header {
+    padding-top: 1em;
+}
+
+#myface {
+    margin: 0 0 0 3.5em;
+}
+
+.subheader {
+    font-size: 1.5em;
+}
+
+.ilb {
+    display: inline-block;
+}
+
+.nowrap {
+    white-space: nowrap;
+}

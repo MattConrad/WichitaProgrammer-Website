@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wichita Programmer portfolio of software development</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="description" content="Software development project portfolio including projects using ASP.NET MVC, jQuery, Javascript, Django, Codeigniter, and T-SQL. " />
+    <meta name="keywords" content="Wichita Matt Conrad portfolio projects software development ASP.NET MVC, jQuery, Javascript, Django, Codeigniter, T-SQL" />
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap-responsive.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="/css/colorbox.css" />
+    <link media="screen" rel="stylesheet" type="text/css" href="/css/main.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.colorbox-min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("a[rel='ss_gallery']").colorbox({transition:"fade", width:"90%", height:"90%"});
+        });
+    </script>
+    <style>
+        h1 {
+            font-size: 2em;
+        }
+        #portfolio_table {
+            border-spacing: 0 1.5em;
+        }
+
+        td.project_tech {
+            padding-left: 2em;
+            vertical-align: top;
+        }
+
+        td.project_tech p {
+            padding: 0.2em 0 0.5em 0;
+            line-height: 1.1em;
+        }
+
+        td.project_story {
+            padding: 0 2em 2em 2em;
+            vertical-align: top;
+        }
+
+        td.project_thumb {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" id="content">
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+          <div class="row">
+              <div class="gradient-blue">
+                  <div class="span12"><a class="title" href="/"><span class="blue8">Wichita</span><span class="bluea">Programmer</span><span class="blue8">.com</span></a></div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="span12"><a class="brand" href="/">Custom Software Development</a></div>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="span10">
+            <h1>Projects</h1>
+        </div>
+        <div class="span2">
+            <br>
+            <a href="/">(back to main)</a>
+        </div>
+    </div>
+    <div id="mainwide">
+        <br>
+        <p>I do both desktop and web development work, using a variety of technologies. Click on a screenshot to see a larger view.</p>
+        <br>
+        <table id="portfolio_table" class="table">
+            <tr>
+                <td width="40%" class="project_thumb">
+                    <a href="/images/screenshots/daybook_entry_page.png" rel="ss_gallery" title="Homeschool Day Book Main Page" > 
+                        <img src="/images/thumbs/thumb_daybook_entry_page.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td width="20%" class="project_tech">
+                    <p>.NET Framework</p>
+                    <p>WinForms</p>
+                    <p>C#</p>
+                    <p>SQL Server Compact <br>(SQL CE)</p>
+                    <p>Microsoft Reporting (ReportViewer)</p>
+                </td>
+                <td width="40%" class="project_story">
+                    This project started because my wife didn't like any of the homeschool record keepers she found on the internet.
+                    So I wrote one that she liked (super simple to use) and packaged it up for other people who share our taste
+                    in record keeping. You can see the website
+                    at <a href="http://www.homeschooldaybook.com">www.HomeSchoolDayBook.com</a>. Anyone is welcome to download
+                    the trial version and test it out.  Partial source code is available for this project. 
+                </td>
+            </tr>
+            <tr>
+                <td width="40%" class="project_thumb">
+                    <a href="/images/screenshots/acrs_jobs.png" rel="ss_gallery" title="Service Company Process Management" >
+                        <img src="/images/thumbs/thumb_acrs_jobs.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td width="20%" class="project_tech">
+                    <p>Azure</p>
+                    <p>ASP.NET MVC</p>
+                    <p>Bootstrap</p>
+                    <p>JQuery</p>
+                </td>
+                <td width="40%" class="project_story">
+                    A local service company was expanding their business and needed a better way to manage their work.
+                    We put together a system tracking their jobs step-by-step, from the initial job call through to invoicing 
+                    and payment. The new system also helps keep track of employees and customers as well.
+                </td>
+            </tr>
+            <tr>
+                <td width="40%" class="project_thumb">
+                    <a href="/images/screenshots/crest.png" rel="ss_gallery" title="Financial Services Backoffice Application" >
+                        <img src="/images/thumbs/thumb_crest.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td width="20%" class="project_tech">
+                    <p>ASP.NET MVC</p>
+                    <p>Web Services</p>
+                    <p>C#</p>
+                    <p>Microsoft Reporting Services</p>
+                    <p>JQuery</p>
+                </td>
+                <td width="40%" class="project_story">
+                    Here I helped a financial services company with back office management.
+                    Notable improvements included a new electronic signature process during loan applications,
+                    and integrating in real-time credit evaluation (using a 3rd party API) for new applicants.
+                </td>
+            </tr>
+            <tr>
+                <td width="40%" class="project_thumb">
+                    <a href="/images/screenshots/engineering_test_suite.png" rel="ss_gallery" title="Engineering Test Suite" >
+                        <img src="/images/thumbs/thumb_engineering_test_suite.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td width="20%" class="project_tech">
+                    <p>C#</p>
+                    <p>RestSharp</p>
+                    <p>JSON.NET</p>
+                    <p>Javascript.NET</p>
+                    <p>Visual Studio Unit Testing Framework</p>
+                </td>
+                <td width="40%" class="project_story">
+                    An engineering application had some bugs that needed cleaning up. Fortunately, it had a nice RESTful
+                    interface that lent itself well to unit testing. I wrote the test suite that the lead programmer used
+                    to verify fixes and watch for regressions. 
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/funhouse.png" rel="ss_gallery" title="Funhou.se Social Games Site" > 
+                        <img src="/images/thumbs/thumb_funhouse.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>PHP</p>
+                    <p>CodeIgniter</p>
+                    <p>PyroCMS</p>
+                    <p>MySQL</p>
+                    <p>Javascript</p>
+                    <p>JQuery</p>
+                    <p>Facebook and Twitter integration</p>
+                </td>
+                <td class="project_story">
+                    <a href="http://funhou.se">Funhou.se</a> is a website for virtual worlds users. Members can upload
+                    player cards from their favorite virtual world and battle them against other users, set up a
+                    customized profile about themselves, and promote different virtual world parties from
+                    a central location. I wrote the code and did the early design. (Later graphics and layout changes were added
+                    by a designer.)
+                </td>
+            </tr>
+            <!-- MVC 3 app removed per client request, if that changes, see repo 2011-08-03 -->
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/ah_alert_view.png" rel="ss_gallery" title="After Hours Call Center Application" > 
+                        <img src="/images/thumbs/thumb_ah_alert_view.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>.NET Framework</p>
+                    <p>ASP.NET (WebForms)</p>
+                    <p>C#</p>
+                    <p>Microsoft SQL Server</p>
+                    <p>Crystal Reports</p>
+                </td>
+                <td class="project_story">
+                    Here we needed to provide limited web access to one of our call center databases. This application runs on 
+                    a secure website and automatically restricts data access to what is appropriate for the logged-in user.
+                    This application allows viewing and modification of selected call center data, and also 
+                    delivers summary reports of activities and notable call center events using a Crystal Reports interface
+                    for ASP.NET.
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/gae_colorcon.png" rel="ss_gallery" title="Color Concentration Game" > 
+                        <img src="/images/thumbs/thumb_gae_colorcon.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>Python</p>
+                    <p>Django</p>
+                    <p>Google App Engine</p>
+                </td>
+                <td class="project_story">
+                    This was a project that I did for fun when I was learning Django and was also interested in trying out the 
+                    Google App Engine platform. It's a concentration game with color names, printed in colors, where the 
+                    name and the printed color are out of sync with each other. It's available on the App Engine platform
+                    at <a href="http://matt-scratch.appspot.com">matt-scratch.appspot.com</a>. 
+                    Source code is available for this project. 
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/util_review_case_number.png" rel="ss_gallery" title="Case Review With Rapid Completion" > 
+                        <img src="/images/thumbs/thumb_util_review_case_number.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>.NET Framework</p>
+                    <p>WinForms</p>
+                    <p>C#</p>
+                    <p>Microsoft SQL Server</p>
+                </td>
+                <td class="project_story">
+                    This application reviewed data from other organizations.  The organization would supply
+                    us with an Excel file containing the data to review, we'd import it into the database, and then our trained reviewers
+                    would review each entry and mark it up with comments.  The application included some tricks to allow very 
+                    fast completion of reviews, such as inserting predefined text snippets into text fields via mouse clicks. 
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/vitals_assm_smartness.png" rel="ss_gallery" title="Dynamic Javascript Data Collection Tool" > 
+                        <img src="/images/thumbs/thumb_vitals_assm_smartness.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>Cold Fusion</p>
+                    <p>Javascript</p>
+                    <p>Microsoft SQL Server</p>
+                </td>
+                <td class="project_story">
+                    This project used Javascript to enhance a survey feature of a web application.  The original version of the 
+                    survey displayed different types of questions (radio button group, yes/no question, text entry) in a vertical 
+                    form to be answered one at a time.  After the enhancements, answers to one question could create ripple effects 
+                    through the rest of the survey.  An answer to a question could cause other questions to be answered 
+                    automatically, hide questions from view, reveal questions that had previously been hidden, or combinations
+                    of these effects. This feature also included an admin UI so the dynamic effects could be defined and 
+                    managed by end users. 
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/ckpoc.png" rel="ss_gallery" title="CK Editor User Forms Proof of Concept" > 
+                        <img src="/images/thumbs/thumb_ckpoc.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>Python</p>
+                    <p>Django</p>
+                    <p>CK Editor</p>
+                </td>
+                <td class="project_story">
+                    A small proof of concept application, written to show the feasibility of allowing users to create their
+                    own forms using the CK Editor rich text interface, and then collect and store data entered via those 
+                    user created forms. Source code is available for this project.
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/soko.png" rel="ss_gallery" title="Sokoban in ASP.NET MVC" > 
+                        <img src="/images/thumbs/thumb_soko.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>.NET Framework</p>
+                    <p>ASP.NET MVC</p>
+                    <p>C#</p>
+                    <p>JQuery</p>
+                </td>
+                <td class="project_story">
+                    A playable Sokoban game written in ASP.NET MVC that I wrote for learning and for fun. If you've 
+                    never played Sokoban, you should give it a try. Despite the simple gameplay, some of the levels are 
+                    quite challenging. Source code is available for this project. 
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/secureweb_home_page.png" rel="ss_gallery" title="Personalized Resource and Application Page" > 
+                        <img src="/images/thumbs/thumb_secureweb_home_page.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>.NET Framework</p>
+                    <p>ASP.NET (WebForms)</p>
+                    <p>C#</p>
+                    <p>XML</p>
+                </td>
+                <td class="project_story">
+                    This was an entry page for a secure website written in ASP.NET. We wanted to be able to add new links to the page
+                    without recompiling, we wanted to display a customized list of links based on the logged in user's name, and we 
+                    didn't want to use a SQL Server database to store our data. The entry page uses XML files to define the links,
+                    users, and permissions between those links and users. 
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/pychallenge.png" rel="ss_gallery" title="Python Challenge" > 
+                        <img src="/images/thumbs/thumb_pychallenge.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>Python</p>
+                </td>
+                <td class="project_story">
+                    Python is my favorite language for playing around. Somewhere along the line I discovered 
+                    <a href="http://www.pythonchallenge.com/">www.pythonchallenge.com</a>, a site containing puzzles
+                    you can solve by writing little programs (typically using Python). I do these for fun--I'm currently
+                    somwhere in the teens. Source code is available, if you don't mind spoilers . . .
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/vitals_pmt_adj.png" rel="ss_gallery" title="Accounting System Restructuring" > 
+                        <img src="/images/thumbs/thumb_vitals_pmt_adj.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>Cold Fusion</p>
+                    <p>Microsoft SQL Server</p>
+                </td>
+                <td class="project_story">
+                    This was a redesign of an integrated accounting system. My rewrite simplified the accounting and billing cycle
+                    logic was and the presentation of accounting info was restructured to allow much more information
+                    to be accessible at once while still being easy to understand. After the rework, one user said 
+                    work that used to take her 3-4 hours could be completed in 20 minutes. 
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/shorttermgoals_php.png" rel="ss_gallery" title="Simple Goal Tracking Application" > 
+                        <img src="/images/thumbs/thumb_shorttermgoals_php.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>PHP</p>
+                    <p>MySQL</p>
+                </td>
+                <td class="project_story">
+                    This is a toy goal tracking project that I wrote to learn a little more about PHP and MySQL. The idea was to have 
+                    a goal tracking application where every goal entered automatically included an explicit deadline.
+                    I'm rethinking this idea and one of these days I'll throw out a new version running on Google App Engine.
+                    <em>(Update: it turns out time tracking with <a href="http://www.toggl.com">toggl.com</a> works very well for me, 
+                    so I won't be adding another goal tracker/todo list to the millions already out there.)</em> Source code is 
+                    available for this project.  
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/aims_front_end.png" rel="ss_gallery" title="Complex Data Review and Data Entry Application" > 
+                        <img src="/images/thumbs/thumb_aims_front_end.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>.NET Framework</p>
+                    <p>WinForms</p>
+                    <p>VB.NET</p>
+                    <p>Microsoft SQL Server</p>
+                </td>
+                <td class="project_story">
+                    This project was a WinForms front end to a database that collected mental health data from all of Kansas.
+                    The data set was complicated, with several groups of data being collected and a viewable, editable history
+                    required for many of those groups.  This application allowed fast traversal of the data and additions or
+                    modifications to be made easily.
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/aims_summary_data_results.png" rel="ss_gallery" title="Selectable Data Summary Viewer" > 
+                        <img src="/images/thumbs/thumb_aims_summary_data_results.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>.NET Framework</p>
+                    <p>ASP.NET (WebForms)</p>
+                    <p>C#</p>
+                    <p>Microsoft SQL Server</p>
+                </td>
+                <td class="project_story">
+                    We needed to present aggregate data for a large database.  Aggregating on the fly was too slow, so we 
+                    generated and cached the summary data using a SQL Server job, and then made it available (allowing various
+                    permutations chosen by the user) on the public website using this ASP.NET application.
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/aims_sample_error_file.png" rel="ss_gallery" title="Automatic Data File Processing Results" > 
+                        <img src="/images/thumbs/thumb_aims_sample_error_file.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>.NET Framework</p>
+                    <p>ASP.NET (WebForms)</p>
+                    <p>Windows Services</p>
+                    <p>C#</p>
+                    <p>Microsoft SQL Server</p>
+                </td>
+                <td class="project_story">
+                    This application allowed users to upload a data file, have it automatically processed by our system and 
+                    applied to our database, and receive the results of processing back by email. There were a lot of data rules
+                    and the results were often lengthy, but the cycle of submit and resubmit was very fast post-automation. 
+                    The screenshot shows an example results file.
+                </td>
+            </tr>
+            <tr>
+                <td class="project_thumb">
+                    <a href="/images/screenshots/ips_initial_request.png" rel="ss_gallery" title="Long Lived Complex Call Center Application" > 
+                        <img src="/images/thumbs/thumb_ips_initial_request.png" alt="View Full Size Screenshot" border="0" />
+                    </a>
+                </td>
+                <td class="project_tech">
+                    <p>Visual Basic 6.0</p>
+                    <p>Microsoft SQL Server</p>
+                </td>
+                <td class="project_story">
+                    This is a call center application originally written ten years ago. Normally I wouldn't include an application
+                    that old here, much less one written in Visual Basic 6, but this one is a little special. It's still in use
+                    and has worked very reliably, approximately 24 x 7, since the day it was launched. The core of the 
+                    original design has held up through hundreds of new features, extensions, and revisions.
+                </td>
+            </tr>
+        </table> 
+    </div> 
+</div> 
+
+</body>
+</html>
+
