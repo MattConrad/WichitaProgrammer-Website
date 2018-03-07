@@ -274,7 +274,7 @@
     </div>
     <script src="/scripts/halkaBox.min.js"></script>
     <script type="text/javascript">
-        window.onload = function() {
+        document.addEventListener("DOMContentLoaded", function() {
             halkaBox.options({
                 hideButtons: true,  // hide buttons on touch devices (true || false)
                 animation: "slide", // animation type on next/prev ("slide" || "fade")
@@ -283,7 +283,7 @@
             });
             
             halkaBox.run('gallery');
-        };
+        });
     </script>
 </body>
 </html>
